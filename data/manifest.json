@@ -1,0 +1,920 @@
+{
+  "generated_at": "2026-11-09T02:02:37.990178+00:00",
+  "seed": 42,
+  "start_date": "2026-10-11",
+  "days": 30,
+  "n_users": 300,
+  "n_products": 60,
+  "schema_version": "1.0",
+  "days_detail": [
+    {
+      "date": "2026-10-11",
+      "weekday": "Sun",
+      "file": "events_2026-10-11.jsonl",
+      "total_events": 815,
+      "events_by_type": {
+        "logout": 18,
+        "page_view": 444,
+        "search": 56,
+        "click": 135,
+        "add_to_cart": 90,
+        "login": 12,
+        "checkout_start": 27,
+        "error": 3,
+        "remove_from_cart": 10,
+        "signup": 3,
+        "purchase": 15,
+        "null": 2
+      },
+      "revenue_thb": 72526.67,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 3,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-12",
+      "weekday": "Mon",
+      "file": "events_2026-10-12.jsonl",
+      "total_events": 690,
+      "events_by_type": {
+        "click": 116,
+        "signup": 4,
+        "page_view": 377,
+        "search": 49,
+        "add_to_cart": 73,
+        "purchase": 12,
+        "remove_from_cart": 8,
+        "login": 8,
+        "checkout_start": 22,
+        "logout": 18,
+        "null": 2,
+        "error": 1
+      },
+      "revenue_thb": 121489.98,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 2,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-13",
+      "weekday": "Tue",
+      "file": "events_2026-10-13.jsonl",
+      "total_events": 716,
+      "events_by_type": {
+        "page_view": 387,
+        "search": 53,
+        "click": 114,
+        "checkout_start": 27,
+        "add_to_cart": 83,
+        "purchase": 15,
+        "logout": 12,
+        "null": 2,
+        "remove_from_cart": 11,
+        "login": 7,
+        "signup": 2,
+        "error": 3
+      },
+      "revenue_thb": 84365.88,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 2,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-14",
+      "weekday": "Wed",
+      "file": "events_2026-10-14.jsonl",
+      "total_events": 847,
+      "events_by_type": {
+        "page_view": 472,
+        "click": 147,
+        "add_to_cart": 92,
+        "logout": 16,
+        "search": 53,
+        "checkout_start": 25,
+        "purchase": 10,
+        "login": 13,
+        "null": 2,
+        "signup": 3,
+        "error": 2,
+        "remove_from_cart": 12
+      },
+      "revenue_thb": 104931.51,
+      "quality_issues": {
+        "duplicate_rows": 5,
+        "null_event_type": 2,
+        "malformed_timestamp": 3,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-15",
+      "weekday": "Thu",
+      "file": "events_2026-10-15.jsonl",
+      "total_events": 1007,
+      "events_by_type": {
+        "page_view": 531,
+        "click": 162,
+        "search": 66,
+        "checkout_start": 34,
+        "add_to_cart": 146,
+        "purchase": 16,
+        "remove_from_cart": 16,
+        "logout": 21,
+        "signup": 3,
+        "null": 3,
+        "login": 8,
+        "error": 1
+      },
+      "revenue_thb": 218730.43,
+      "quality_issues": {
+        "duplicate_rows": 6,
+        "null_event_type": 3,
+        "malformed_timestamp": 4,
+        "negative_amount": 1,
+        "missing_session_id": 2
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-16",
+      "weekday": "Fri",
+      "file": "events_2026-10-16.jsonl",
+      "total_events": 677,
+      "events_by_type": {
+        "add_to_cart": 102,
+        "logout": 8,
+        "click": 109,
+        "page_view": 338,
+        "signup": 3,
+        "checkout_start": 23,
+        "search": 51,
+        "remove_from_cart": 18,
+        "purchase": 12,
+        "login": 10,
+        "null": 2,
+        "error": 1
+      },
+      "revenue_thb": 100165.25,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 2,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-17",
+      "weekday": "Sat",
+      "file": "events_2026-10-17.jsonl",
+      "total_events": 787,
+      "events_by_type": {
+        "page_view": 442,
+        "add_to_cart": 68,
+        "search": 61,
+        "click": 142,
+        "logout": 12,
+        "login": 14,
+        "checkout_start": 19,
+        "remove_from_cart": 10,
+        "signup": 5,
+        "null": 2,
+        "purchase": 12
+      },
+      "revenue_thb": 85240.13,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 3,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-18",
+      "weekday": "Sun",
+      "file": "events_2026-10-18.jsonl",
+      "total_events": 736,
+      "events_by_type": {
+        "page_view": 377,
+        "click": 127,
+        "add_to_cart": 92,
+        "signup": 4,
+        "login": 4,
+        "error": 22,
+        "search": 47,
+        "remove_from_cart": 7,
+        "checkout_start": 26,
+        "logout": 15,
+        "purchase": 13,
+        "null": 2
+      },
+      "revenue_thb": 98141.88,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 2,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": "error_spike",
+      "anomaly_note": "Deploy gone wrong: error rate spikes"
+    },
+    {
+      "date": "2026-10-19",
+      "weekday": "Mon",
+      "file": "events_2026-10-19.jsonl",
+      "total_events": 716,
+      "events_by_type": {
+        "add_to_cart": 86,
+        "page_view": 380,
+        "checkout_start": 26,
+        "click": 116,
+        "purchase": 17,
+        "search": 51,
+        "logout": 17,
+        "null": 2,
+        "remove_from_cart": 10,
+        "signup": 1,
+        "login": 9,
+        "error": 1
+      },
+      "revenue_thb": 91850.39,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 2,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-20",
+      "weekday": "Tue",
+      "file": "events_2026-10-20.jsonl",
+      "total_events": 797,
+      "events_by_type": {
+        "checkout_start": 28,
+        "page_view": 429,
+        "add_to_cart": 85,
+        "click": 145,
+        "purchase": 12,
+        "remove_from_cart": 8,
+        "logout": 12,
+        "search": 65,
+        "signup": 1,
+        "error": 3,
+        "login": 7,
+        "null": 2
+      },
+      "revenue_thb": 103789.66,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 3,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-21",
+      "weekday": "Wed",
+      "file": "events_2026-10-21.jsonl",
+      "total_events": 793,
+      "events_by_type": {
+        "page_view": 443,
+        "search": 68,
+        "click": 152,
+        "add_to_cart": 69,
+        "login": 9,
+        "checkout_start": 21,
+        "logout": 13,
+        "purchase": 8,
+        "remove_from_cart": 5,
+        "signup": 2,
+        "null": 2,
+        "error": 1
+      },
+      "revenue_thb": 62023.06,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 3,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-22",
+      "weekday": "Thu",
+      "file": "events_2026-10-22.jsonl",
+      "total_events": 991,
+      "events_by_type": {
+        "page_view": 518,
+        "add_to_cart": 124,
+        "click": 164,
+        "search": 75,
+        "remove_from_cart": 26,
+        "purchase": 18,
+        "checkout_start": 28,
+        "signup": 6,
+        "logout": 17,
+        "error": 4,
+        "login": 9,
+        "null": 2
+      },
+      "revenue_thb": 174298.65,
+      "quality_issues": {
+        "duplicate_rows": 5,
+        "null_event_type": 2,
+        "malformed_timestamp": 3,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-23",
+      "weekday": "Fri",
+      "file": "events_2026-10-23.jsonl",
+      "total_events": 956,
+      "events_by_type": {
+        "add_to_cart": 129,
+        "page_view": 500,
+        "search": 74,
+        "logout": 15,
+        "click": 150,
+        "checkout_start": 34,
+        "purchase": 17,
+        "remove_from_cart": 19,
+        "login": 9,
+        "null": 2,
+        "signup": 5,
+        "error": 2
+      },
+      "revenue_thb": 191027.15,
+      "quality_issues": {
+        "duplicate_rows": 5,
+        "null_event_type": 2,
+        "malformed_timestamp": 3,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-24",
+      "weekday": "Sat",
+      "file": "events_2026-10-24.jsonl",
+      "total_events": 671,
+      "events_by_type": {
+        "page_view": 358,
+        "add_to_cart": 77,
+        "click": 113,
+        "search": 49,
+        "remove_from_cart": 15,
+        "checkout_start": 25,
+        "purchase": 10,
+        "logout": 13,
+        "login": 5,
+        "signup": 4,
+        "null": 2
+      },
+      "revenue_thb": 80000.29,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 2,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-25",
+      "weekday": "Sun",
+      "file": "events_2026-10-25.jsonl",
+      "total_events": 1278,
+      "events_by_type": {
+        "add_to_cart": 150,
+        "page_view": 676,
+        "search": 106,
+        "checkout_start": 37,
+        "purchase": 32,
+        "click": 206,
+        "login": 16,
+        "logout": 29,
+        "remove_from_cart": 11,
+        "error": 5,
+        "null": 3,
+        "signup": 7
+      },
+      "revenue_thb": 290416.56,
+      "quality_issues": {
+        "duplicate_rows": 7,
+        "null_event_type": 3,
+        "malformed_timestamp": 5,
+        "negative_amount": 1,
+        "missing_session_id": 2
+      },
+      "anomaly": "flash_sale",
+      "anomaly_note": "11.11 flash sale: traffic + conversion up"
+    },
+    {
+      "date": "2026-10-26",
+      "weekday": "Mon",
+      "file": "events_2026-10-26.jsonl",
+      "total_events": 739,
+      "events_by_type": {
+        "login": 6,
+        "page_view": 387,
+        "add_to_cart": 98,
+        "click": 115,
+        "search": 49,
+        "logout": 8,
+        "checkout_start": 28,
+        "error": 4,
+        "remove_from_cart": 21,
+        "purchase": 18,
+        "null": 2,
+        "signup": 3
+      },
+      "revenue_thb": 141792.62,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 2,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-27",
+      "weekday": "Tue",
+      "file": "events_2026-10-27.jsonl",
+      "total_events": 732,
+      "events_by_type": {
+        "search": 55,
+        "add_to_cart": 86,
+        "page_view": 413,
+        "click": 115,
+        "purchase": 10,
+        "remove_from_cart": 10,
+        "checkout_start": 23,
+        "logout": 11,
+        "login": 3,
+        "error": 3,
+        "null": 2,
+        "signup": 1
+      },
+      "revenue_thb": 78179.54,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 2,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-28",
+      "weekday": "Wed",
+      "file": "events_2026-10-28.jsonl",
+      "total_events": 932,
+      "events_by_type": {
+        "page_view": 485,
+        "add_to_cart": 134,
+        "search": 71,
+        "click": 148,
+        "remove_from_cart": 11,
+        "checkout_start": 33,
+        "logout": 15,
+        "purchase": 16,
+        "login": 15,
+        "signup": 2,
+        "null": 2
+      },
+      "revenue_thb": 85143.43,
+      "quality_issues": {
+        "duplicate_rows": 5,
+        "null_event_type": 2,
+        "malformed_timestamp": 3,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-29",
+      "weekday": "Thu",
+      "file": "events_2026-10-29.jsonl",
+      "total_events": 699,
+      "events_by_type": {
+        "page_view": 362,
+        "checkout_start": 21,
+        "search": 54,
+        "click": 109,
+        "add_to_cart": 99,
+        "logout": 18,
+        "login": 4,
+        "remove_from_cart": 14,
+        "null": 2,
+        "purchase": 14,
+        "error": 1,
+        "signup": 1
+      },
+      "revenue_thb": 124045.9,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 2,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-30",
+      "weekday": "Fri",
+      "file": "events_2026-10-30.jsonl",
+      "total_events": 834,
+      "events_by_type": {
+        "add_to_cart": 122,
+        "page_view": 432,
+        "logout": 15,
+        "purchase": 19,
+        "search": 59,
+        "click": 127,
+        "signup": 4,
+        "checkout_start": 31,
+        "null": 2,
+        "remove_from_cart": 17,
+        "login": 6
+      },
+      "revenue_thb": 192093.82,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 3,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-10-31",
+      "weekday": "Sat",
+      "file": "events_2026-10-31.jsonl",
+      "total_events": 560,
+      "events_by_type": {
+        "page_view": 304,
+        "add_to_cart": 66,
+        "click": 77,
+        "purchase": 15,
+        "logout": 15,
+        "search": 49,
+        "checkout_start": 24,
+        "null": 1,
+        "remove_from_cart": 5,
+        "signup": 1,
+        "login": 2,
+        "error": 1
+      },
+      "revenue_thb": 160713.37,
+      "quality_issues": {
+        "duplicate_rows": 3,
+        "null_event_type": 1,
+        "malformed_timestamp": 2,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-11-01",
+      "weekday": "Sun",
+      "file": "events_2026-11-01.jsonl",
+      "total_events": 633,
+      "events_by_type": {
+        "add_to_cart": 75,
+        "search": 46,
+        "page_view": 337,
+        "remove_from_cart": 17,
+        "click": 105,
+        "logout": 15,
+        "checkout_start": 20,
+        "purchase": 9,
+        "signup": 3,
+        "error": 3,
+        "null": 1,
+        "login": 2
+      },
+      "revenue_thb": 62196.09,
+      "quality_issues": {
+        "duplicate_rows": 3,
+        "null_event_type": 1,
+        "malformed_timestamp": 2,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-11-02",
+      "weekday": "Mon",
+      "file": "events_2026-11-02.jsonl",
+      "total_events": 937,
+      "events_by_type": {
+        "search": 70,
+        "page_view": 500,
+        "click": 154,
+        "purchase": 22,
+        "add_to_cart": 105,
+        "remove_from_cart": 18,
+        "checkout_start": 31,
+        "login": 16,
+        "logout": 17,
+        "null": 2,
+        "signup": 2
+      },
+      "revenue_thb": 101611.25,
+      "quality_issues": {
+        "duplicate_rows": 5,
+        "null_event_type": 2,
+        "malformed_timestamp": 3,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-11-03",
+      "weekday": "Tue",
+      "file": "events_2026-11-03.jsonl",
+      "total_events": 319,
+      "events_by_type": {
+        "add_to_cart": 36,
+        "page_view": 176,
+        "click": 52,
+        "checkout_start": 12,
+        "search": 25,
+        "login": 3,
+        "logout": 6,
+        "remove_from_cart": 7,
+        "null": 1,
+        "signup": 1
+      },
+      "revenue_thb": 0.0,
+      "quality_issues": {
+        "duplicate_rows": 1,
+        "null_event_type": 1,
+        "malformed_timestamp": 1,
+        "negative_amount": 0,
+        "missing_session_id": 1
+      },
+      "anomaly": "traffic_drop",
+      "anomaly_note": "Outage / tracking broken: volume + revenue drop"
+    },
+    {
+      "date": "2026-11-04",
+      "weekday": "Wed",
+      "file": "events_2026-11-04.jsonl",
+      "total_events": 1036,
+      "events_by_type": {
+        "page_view": 558,
+        "click": 158,
+        "logout": 24,
+        "search": 82,
+        "add_to_cart": 123,
+        "checkout_start": 39,
+        "purchase": 21,
+        "login": 11,
+        "error": 1,
+        "remove_from_cart": 13,
+        "null": 3,
+        "signup": 3
+      },
+      "revenue_thb": 119534.06,
+      "quality_issues": {
+        "duplicate_rows": 6,
+        "null_event_type": 3,
+        "malformed_timestamp": 4,
+        "negative_amount": 1,
+        "missing_session_id": 2
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-11-05",
+      "weekday": "Thu",
+      "file": "events_2026-11-05.jsonl",
+      "total_events": 1081,
+      "events_by_type": {
+        "click": 167,
+        "checkout_start": 42,
+        "page_view": 578,
+        "search": 86,
+        "logout": 20,
+        "add_to_cart": 128,
+        "login": 18,
+        "remove_from_cart": 17,
+        "signup": 3,
+        "purchase": 17,
+        "null": 3,
+        "error": 2
+      },
+      "revenue_thb": 147071.73,
+      "quality_issues": {
+        "duplicate_rows": 6,
+        "null_event_type": 3,
+        "malformed_timestamp": 4,
+        "negative_amount": 1,
+        "missing_session_id": 2
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-11-06",
+      "weekday": "Fri",
+      "file": "events_2026-11-06.jsonl",
+      "total_events": 823,
+      "events_by_type": {
+        "page_view": 442,
+        "search": 65,
+        "add_to_cart": 112,
+        "click": 119,
+        "logout": 18,
+        "remove_from_cart": 17,
+        "login": 5,
+        "purchase": 8,
+        "error": 2,
+        "checkout_start": 30,
+        "null": 2,
+        "signup": 3
+      },
+      "revenue_thb": 58323.45,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 3,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-11-07",
+      "weekday": "Sat",
+      "file": "events_2026-11-07.jsonl",
+      "total_events": 733,
+      "events_by_type": {
+        "click": 121,
+        "page_view": 383,
+        "add_to_cart": 102,
+        "logout": 11,
+        "remove_from_cart": 10,
+        "purchase": 14,
+        "search": 50,
+        "checkout_start": 30,
+        "login": 7,
+        "signup": 3,
+        "null": 2
+      },
+      "revenue_thb": 138148.63,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 2,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-11-08",
+      "weekday": "Sun",
+      "file": "events_2026-11-08.jsonl",
+      "total_events": 844,
+      "events_by_type": {
+        "click": 132,
+        "checkout_start": 35,
+        "page_view": 443,
+        "logout": 19,
+        "search": 68,
+        "add_to_cart": 101,
+        "login": 9,
+        "remove_from_cart": 15,
+        "purchase": 18,
+        "null": 2,
+        "error": 1,
+        "signup": 1
+      },
+      "revenue_thb": 126140.14,
+      "quality_issues": {
+        "duplicate_rows": 5,
+        "null_event_type": 2,
+        "malformed_timestamp": 3,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    },
+    {
+      "date": "2026-11-09",
+      "weekday": "Mon",
+      "file": "events_2026-11-09.jsonl",
+      "total_events": 732,
+      "events_by_type": {
+        "purchase": 16,
+        "page_view": 383,
+        "click": 108,
+        "search": 54,
+        "add_to_cart": 109,
+        "signup": 4,
+        "checkout_start": 30,
+        "remove_from_cart": 13,
+        "null": 2,
+        "logout": 7,
+        "login": 6
+      },
+      "revenue_thb": 129722.25,
+      "quality_issues": {
+        "duplicate_rows": 4,
+        "null_event_type": 2,
+        "malformed_timestamp": 2,
+        "negative_amount": 1,
+        "missing_session_id": 1
+      },
+      "anomaly": null,
+      "anomaly_note": null
+    }
+  ],
+  "totals": {
+    "total_events": 24111,
+    "events_by_type": {
+      "logout": 455,
+      "page_view": 12855,
+      "search": 1807,
+      "click": 3905,
+      "add_to_cart": 2962,
+      "login": 253,
+      "checkout_start": 831,
+      "error": 67,
+      "remove_from_cart": 391,
+      "signup": 88,
+      "purchase": 436,
+      "null": 61
+    },
+    "total_files": 30
+  }
+}

@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Prefect (ฐานข้อมูล/ไฟล์ภายในของ Prefect)
+.prefect/
+
+# ผลลัพธ์ที่ generate ใหม่ได้เสมอ (ไม่ต้อง commit)
+reports/
+
+# ถ้าไม่อยากเก็บ database ลง git ให้เอา # ออกบรรทัดล่าง
+# ecommerce.db
