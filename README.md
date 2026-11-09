@@ -7,8 +7,10 @@ Mini data pipeline แบบ ETL (Extract → Transform → Load) อ่าน�
 
 ## สิ่งที่ต้องติดตั้งบนเครื่อง (Prerequisites)
 
-1. **Python 3.10 ขึ้นไป** — https://www.python.org/downloads/
+1. **Python 3.12 (แนะนำ)** — https://www.python.org/downloads/
    - ตอนติดตั้งบน Windows ให้ **ติ๊ก "Add Python to PATH"** ด้วย
+   - ⚠️ **อย่าใช้ Python เวอร์ชันล่าสุดสุด (เช่น 3.15)** เพราะ `pandas`/`prefect` ยังทำ wheel ไม่ทัน
+     จะเจอ error `Failed building wheel for pyyaml` — ใช้ 3.12 จะชัวร์สุด (ดู Troubleshooting ท้ายไฟล์)
 2. **Git** — https://git-scm.com/downloads
 3. **VS Code** — https://code.visualstudio.com/
    - แนะนำลง extension **"Python"** (ของ Microsoft) ใน VS Code
@@ -93,4 +95,35 @@ etl_flow.serve(name="daily-ecommerce-etl", cron="0 7 * * *")   # ทุกวั
 เปิดหน้า Dashboard ของ Prefect (อีก terminal):
 ```bash
 prefect server start        # แล้วเปิด http://127.0.0.1:4200
+```
+
+---
+
+## Troubleshooting
+
+### `Failed building wheel for pyyaml` (ตอน pip install)
+เกิดจากใช้ **Python ใหม่เกินไป** (เช่น 3.15) ที่ library ยังไม่มี wheel สำเร็จรูป วิธีแก้:
+
+```powershell
+# 1) ลบ venv เก่า แล้วสร้างใหม่ด้วย Python 3.12
+Remove-Item -Recurse -Force .venv
+py -3.12 -m venv .venv
+.venv\Scripts\Activate.ps1
+python --version                     # ต้องขึ้น 3.12.x
+
+# 2) อัปเดต pip แล้วลงใหม่
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### `no such table: orders` (ตอนรัน flow)
+แปลว่าหา `ecommerce.db` ไม่เจอ หรือไฟล์ว่าง — สร้างใหม่ด้วย:
+```bash
+python scripts/generate_ecommerce_db.py --db ecommerce.db
+```
+
+### PowerShell รัน `Activate.ps1` ไม่ได้ (ฟ้องสีแดง)
+รันครั้งเดียวแล้วตอบ `Y`:
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 ```
